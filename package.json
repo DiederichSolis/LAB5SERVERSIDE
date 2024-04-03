@@ -1,0 +1,40 @@
+{
+  "name": "lab5serverside",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Src/index.js",
+    "lint": "eslint Src/*js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiederichSolis/LAB5SERVERSIDE.git"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "Diederich Solis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DiederichSolis/LAB5SERVERSIDE/issues"
+  },
+  "homepage": "https://github.com/DiederichSolis/LAB5SERVERSIDE#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-react": "^7.34.1"
+  }
+}

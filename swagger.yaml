@@ -1,0 +1,82 @@
+openapi: 3.0.0
+info:
+  title: API de Posts
+  version: 1.0.0
+  description: Una API simple para gestionar posts
+
+paths:
+  /posts:
+    get:
+      summary: Obtiene todos los posts
+      responses:
+        '200':
+          description: Lista de posts
+    post:
+      summary: Crea un nuevo post
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                content:
+                  type: string
+      responses:
+        '200':
+          description: Post creado
+
+  /posts/{postId}:
+    get:
+      summary: Obtiene un post por ID
+      parameters:
+        - in: path
+          name: postId
+          required: true
+          schema:
+            type: integer
+          description: ID del post a obtener
+      responses:
+        '200':
+          description: Detalle del post
+        '404':
+          description: Post no encontrado
+    put:
+      summary: Modifica un post existente
+      parameters:
+        - in: path
+          name: postId
+          required: true
+          schema:
+            type: integer
+          description: ID del post a modificar
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                content:
+                  type: string
+      responses:
+        '200':
+          description: Post modificado
+        '404':
+          description: Post no encontrado
+    delete:
+      summary: Elimina un post existente
+      parameters:
+        - in: path
+          name: postId
+          required: true
+          schema:
+            type: integer
+          description: ID del post a eliminar
+      responses:
+        '204':
+          description: Post eliminado
