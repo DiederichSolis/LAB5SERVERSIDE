@@ -6,6 +6,6 @@ export async function getAllPosts() {
     return rows;
   } catch (error) {
     console.error('Error al obtener posts:', error);
-    throw error;
+    throw error; // Re-lanza el error para manejarlo más arriba en la cadena de promesas.
   }
 }

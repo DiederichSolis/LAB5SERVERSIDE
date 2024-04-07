@@ -1,0 +1,394 @@
+Inicio del registro:
+
+2024-04-06T05:09:54.846Z - Endpoint: /
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T05:09:54.921Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T05:11:11.345Z - Endpoint: /LAB.css
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T05:11:11.371Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T05:11:15.611Z - Endpoint: /
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T05:11:15.635Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T05:11:43.733Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-06T05:11:43.762Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T05:11:48.642Z - Endpoint: /post
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T05:11:48.673Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T05:11:51.200Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-06T05:11:51.224Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T05:13:17.326Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-06T05:13:17.351Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T05:13:31.254Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T05:31:17.215Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T05:31:21.921Z - Endpoint: /
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T05:31:21.948Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T05:31:26.158Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-06T05:31:26.176Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T05:31:33.478Z - Endpoint: /postsId
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T05:31:33.507Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T05:32:46.547Z - Endpoint: /post:/postId
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T05:32:46.576Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T05:33:17.598Z - Endpoint: /
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T05:33:17.619Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T18:56:17.314Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-06T18:56:17.371Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T18:56:21.003Z - Endpoint: /
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T18:56:21.340Z - Endpoint: /
+Payload: {}
+Response: Circular structure in response
+
+2024-04-06T18:56:21.376Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-07T00:32:48.258Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-07T00:32:48.317Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-07T00:44:25.889Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-07T00:44:25.917Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-07T00:44:26.571Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-07T00:44:26.593Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-07T00:44:26.910Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-07T00:44:26.931Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-07T00:44:27.119Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-07T00:44:27.140Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-07T00:51:26.906Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-07T00:51:26.963Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-07T00:52:05.609Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-07T00:54:36.645Z - Endpoint: /posts
+Payload: {"ID_Equipo":1,"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-04-06T12:00:00Z","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: {"id":1}
+
+2024-04-07T00:54:58.568Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-07T00:55:20.240Z - Endpoint: /posts/postID
+Payload: {"ID_Equipo":1,"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-04-06T12:00:00Z","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T00:57:18.218Z - Endpoint: /posts/:postId
+Payload: {"ID_Equipo":1,"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-04-06T12:00:00Z","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T00:57:19.472Z - Endpoint: /posts/:postId
+Payload: {"ID_Equipo":1,"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-04-06T12:00:00Z","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T00:57:36.203Z - Endpoint: /posts
+Payload: {}
+Response: [{"id":1}]
+
+2024-04-07T01:04:47.063Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-07T01:05:00.162Z - Endpoint: /posts
+Payload: {"ID_Equipo":1,"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-04-06T12:00:00Z","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: {"id":1}
+
+2024-04-07T01:05:18.953Z - Endpoint: /posts
+Payload: {}
+Response: [{"id":1}]
+
+2024-04-07T01:05:18.980Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-07T01:12:33.070Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-07T01:12:33.111Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-07T01:12:48.663Z - Endpoint: /posts
+Payload: {"ID_Equipo":1,"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-04-06T12:00:00Z","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T01:13:26.598Z - Endpoint: /posts
+Payload: {"ID_Equipo":1,"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-04-06T12:00:00Z","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: {"id":1}
+
+2024-04-07T01:13:30.711Z - Endpoint: /posts
+Payload: {}
+Response: [{"id":1}]
+
+2024-04-07T04:48:04.222Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-07T04:48:05.712Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-07T04:48:34.595Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-07T04:48:35.476Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-07T04:53:54.169Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-07T04:54:56.685Z - Endpoint: /posts
+Payload: {"ID_Equipo":1,"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-04-06T12:00:00Z","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: {"id":1}
+
+2024-04-07T04:56:25.206Z - Endpoint: /posts
+Payload: {}
+Response: [{"id":1}]
+
+2024-04-07T05:02:52.934Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-07T05:02:57.749Z - Endpoint: /posts
+Payload: {"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-04-06T12:00:00Z","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T05:03:02.962Z - Endpoint: /posts
+Payload: {"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-04-06T12:00:00Z","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T05:03:13.039Z - Endpoint: /posts
+Payload: {"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-04-06T12:00:00Z","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T05:06:10.835Z - Endpoint: /posts
+Payload: {"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-04-06T12:00:00Z","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T05:06:16.080Z - Endpoint: /posts
+Payload: {"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-04-06T12:00:00Z","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T05:06:36.136Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-07T05:06:36.222Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-07T05:10:38.497Z - Endpoint: /posts
+Payload: {"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-04-06T12:00:00Z","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T05:11:18.146Z - Endpoint: /posts
+Payload: {"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-04-06T12:00:00Z","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T05:11:18.995Z - Endpoint: /posts
+Payload: {"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-04-06T12:00:00Z","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T05:13:24.447Z - Endpoint: /posts
+Payload: {"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-04-06T12:00:00Z","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T05:15:09.471Z - Endpoint: /posts
+Payload: {"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-10-23","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T05:15:28.337Z - Endpoint: /posts
+Payload: {"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-10-23","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T05:16:37.566Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-07T05:19:57.837Z - Endpoint: /posts
+Payload: {"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-10-23","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T05:20:46.778Z - Endpoint: /posts
+Payload: {"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-10-23","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T05:21:21.474Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-07T05:21:32.721Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-07T05:21:32.777Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-07T05:21:34.374Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-07T05:21:34.396Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+
+2024-04-07T05:21:42.276Z - Endpoint: /posts
+Payload: {"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-10-23","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T05:21:56.925Z - Endpoint: /posts
+Payload: {}
+Response: []
+
+2024-04-07T05:25:12.978Z - Endpoint: /posts
+Payload: {"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-10-23","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T05:25:12.979Z - Endpoint: /posts
+Payload: {"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-10-23","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T05:25:26.098Z - Endpoint: /posts
+Payload: {"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-10-23","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T05:25:30.227Z - Endpoint: /posts
+Payload: {"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-10-23","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T05:25:30.227Z - Endpoint: /posts
+Payload: {"Ciudad":"Barcelona","Pais":"España","Nombre_jugador":"Lionel","Apellido_jugador":"Messi","Edad_jugador":34,"Posicion_jugador":"Delantero","Equipo_local":"Barcelona","Equipo_visitante":"Real Madrid","Goles_Local":2,"Goles_Visitante":1,"Fecha_partido":"2022-10-23","imagen_base64":"Base64EncodedImageHere","Fase_champions":"Final"}
+Response: Circular structure in response
+
+2024-04-07T05:28:30.664Z - Endpoint: /posts
+Payload: {}
+Response: Circular structure in response
+
+2024-04-07T05:28:43.913Z - Endpoint: /posts
+Payload: {}
+Response: Circular structure in response
+
+2024-04-07T05:28:43.943Z - Endpoint: /favicon.ico
+Payload: {}
+Response: Circular structure in response
+

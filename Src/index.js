@@ -1,9 +1,10 @@
 import express from 'express';
-import { posts } from './db.js'; // Importar posts de './db.js'
+import { getAllPosts } from './db.js'; // Importar posts de './db.js'
 import cors from 'cors';
 import swaggerUi from 'swagger-ui-express';
 import YAML from 'yamljs';
 import fs from 'fs';
+import pool from './conexion.js';
 
 const app = express();
 
@@ -46,9 +47,10 @@ const writeToLog = (endpoint, payload, response) => {
 };
 
 // Define tus endpoints aquí
-app.get('/posts', (req, res) => {
-  res.status(200).json(posts);
-  writeToLog('/posts', req.query, posts);
+app.get('/posts', async (req, res) => {
+  const posts = await getAllPosts();
+  writeToLog('/posts', req.query, res);
+  res.json(posts);
 });
 
 // GET /posts/:postId
@@ -63,13 +65,52 @@ app.get('/posts/:postId', (req, res) => {
 });
 
 // POST /posts
-app.post('/posts', (req, res) => {
+/*app.post('/posts', (req, res) => {
   const { title, content } = req.body;
   const newPost = { id: posts.length + 1, title, content };
   posts.push(newPost);
   res.status(200).json(newPost);
   writeToLog('/posts', req.body, newPost);
 });
+*/
+
+app.post('/posts', async (req, res) => {
+  // Extrae los datos del post del cuerpo de la solicitud
+  const {
+    Ciudad, Pais, Nombre_jugador, Apellido_jugador, Edad_jugador, Posicion_jugador, Equipo_local, Equipo_visitante, Goles_Local, Goles_Visitante, Fecha_partido, imagen_base64, Fase_champions,
+  } = req.body;
+
+  // Realiza validaciones básicas; puedes expandirlas según sea necesario
+  if (!Ciudad || !Pais || !Nombre_jugador || !Apellido_jugador || !Edad_jugador || !Posicion_jugador || !Equipo_local || !Equipo_visitante || !Goles_Local || !Goles_Visitante || !Fecha_partido || !imagen_base64 || !Fase_champions) {
+    return res.status(400).send('Datos requeridos faltantes');
+  }
+
+  try {
+    // Inserta el nuevo post en la base de datos
+    const result = await pool.query(
+      'INSERT INTO champions (Ciudad, Pais, Nombre_jugador, Apellido_jugador, Edad_jugador, Posicion_jugador, Equipo_local, Equipo_visitante, Goles_Local, Goles_Visitante, Fecha_partido, imagen_base64, Fase_champions) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
+      [Ciudad, Pais, Nombre_jugador, Apellido_jugador, Edad_jugador, Posicion_jugador, Equipo_local, Equipo_visitante, Goles_Local, Goles_Visitante, Fecha_partido, imagen_base64, Fase_champions],
+    );
+
+    // Obtén el ID del nuevo post
+    const postId = result[0].insertId;
+
+    // Retorna el nuevo post; realiza otra consulta para obtener los datos recién insertados
+    const [rows] = await pool.query('SELECT * FROM champions WHERE id = ?', [postId]);
+
+    if (rows.length > 0) {
+      res.status(200).json(rows[0]);
+    } else {
+      res.status(404).send('Post creado pero no encontrado');
+    }
+  } catch (error) {
+    console.error('Error al crear el post:', error);
+    res.status(500).send('Error interno del servidor');
+  }
+  writeToLog('/posts', req.body, res);
+  return { message: 'La función ha terminado correctamente' };
+});
+
 
 // PUT /posts/:postId
 app.put('/posts/:postId', (req, res) => {
@@ -91,6 +132,17 @@ app.delete('/posts/:postId', (req, res) => {
   posts = posts.filter(post => post.id !== postId);
   res.status(204).end();
   writeToLog('/posts/:postId', req.params, '');
+});
+
+// GET /posts
+app.get('/posts', async (req, res) => {
+  try {
+    const allPosts = await getAllPosts();
+    res.status(200).json(allPosts);
+    writeToLog('/posts', req.query, allPosts);
+  } catch (error) {
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
 });
 
 // Manejo de endpoint no implementado
@@ -115,6 +167,6 @@ app.use((req, res, next) => {
   writeToLog(req.url, req.body, res);
 });
 
-app.listen(8000, () => {
-  console.log('Server is running on port 8000');
+app.listen(8001, () => {
+  console.log('Server is running on port 8001');
 });
